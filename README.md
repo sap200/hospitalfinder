@@ -1,4 +1,4 @@
-# ![hospitalfinder]("https://github.com/sap200/hospitalfinder/blob/master/src/assets/logo.png")
+# ![hospitalfinder]("https://ipfs.io/ipfs/QmYm1aMvPh9vass2kUZvKau1JKuFQQP6HvdRjjAQum1nJu?filename=logo.png")
 
 ## Project setup
 ```
