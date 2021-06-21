@@ -1,4 +1,4 @@
-# ![hospitalfinder]("./src/assets/logo.png?raw=true "Title"")
+# ![hospitalfinder]("./src/assets/logo.png?raw=true)
 
 
 
