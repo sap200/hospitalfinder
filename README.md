@@ -1,4 +1,4 @@
-# ![hospitalfinder]("./src/assets/logo.png")
+# ![hospitalfinder]("https://github.com/sap200/hospitalfinder/blob/master/src/assets/logo.png")
 
 ## Project setup
 ```
