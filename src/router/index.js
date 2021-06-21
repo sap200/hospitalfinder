@@ -1,12 +1,40 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
+import HospitalList from '../views/HospitalList.vue'
+import AzureMap from '../views/AzureMap.vue'
+import HospitalDetails from '../components/HospitalDetails.vue'
+import Government from '../views/Government.vue'
+import PrivateHospital from '../views/PrivateHospital.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'HospitalList',
+    component: HospitalList
   },
+  {
+    path: '/maps/:plat/:plong/:lat/:long',
+    name: 'Azuremaps',
+    component: AzureMap,
+    props: true,
+  },
+
+  {
+    path: '/government',
+    component: Government,
+  },
+
+  {
+    path: '/privatehos',
+    component: PrivateHospital,
+  },
+
+  {
+    path: '/details/:name/:rating/:type/:city/:state:/:pincode:/:nBed/:nDoc/:disease/:treatment/:link/:image',
+    name: 'HospitalDetails',
+    component: HospitalDetails,
+    props: true,
+  },
+
   {
     path: '/about',
     name: 'About',

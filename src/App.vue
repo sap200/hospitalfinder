@@ -1,10 +1,26 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+<div>
+ 
+  <FinderLogo />
+
+  <router-view />
+
+</div>
 </template>
+
+<script>
+
+import FinderLogo from './views/FinderLogo.vue'
+
+export default {
+  components: {
+    FinderLogo
+  }
+}
+
+
+
+</script>
 
 <style>
 #app {
@@ -17,6 +33,7 @@
 
 #nav {
   padding: 30px;
+   background-color: black;
 }
 
 #nav a {
