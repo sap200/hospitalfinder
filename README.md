@@ -1,4 +1,4 @@
-# ![hospitalfinder]("./public/assets/logo.png")
+# ![hospitalfinder]("./src/assets/logo.png")
 
 ## Project setup
 ```
