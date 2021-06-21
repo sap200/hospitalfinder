@@ -1,4 +1,4 @@
-# ![hospitalfinder](./src/assets/logo.png)
+![hospitalfinder](./src/assets/logo.png) # Hospital Finder 
 
 
 
