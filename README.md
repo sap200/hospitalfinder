@@ -1,4 +1,4 @@
-# ![hospitalfinder](https://ipfs.io/ipfs/QmYm1aMvPh9vass2kUZvKau1JKuFQQP6HvdRjjAQum1nJu?filename=logo.png)
+# ![hospitalfinder](./src/assets/logo.png)
 
 
 
