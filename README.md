@@ -1,4 +1,8 @@
-# hospitalfinder
+![hospitalfinder](./src/assets/logo.png) 
+
+# Hospital Finder 
+
+
 
 ## Project setup
 ```
