@@ -64,7 +64,7 @@ export default {
 
 
 #container{
- display:flex;
+    display:flex;
   margin-right: auto;
   margin-left: auto;
   width: 60%;
@@ -73,6 +73,7 @@ export default {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   margin-bottom: 2.8em ;
   border-radius: 12px;
+  align-items: left;
 }
 
 .elm {
@@ -130,6 +131,12 @@ export default {
     font-weight: 500;
     position: relative;
     
+}
+
+.container-fluid {
+    align-items: left;
+    justify-content: center;
+
 }
 
 /* #content-box p:last-child{

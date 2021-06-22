@@ -2,7 +2,6 @@
 <div>
  
   <FinderLogo />
-
   <router-view />
 
 </div>
