@@ -81,7 +81,7 @@ export default {
             const new_gov = await new_res2.filter((v) => v.type == "Private")
             this.endpoint3 = await new_gov.filter((v) => v.city == searchq)
 
-            
+            this.endpoint2 = await new_res2.filter((v) => v.name == searchq)     
 
             console.log(this.endpoint1)
 
@@ -94,10 +94,10 @@ export default {
             } catch(e) {
                 console.log("Not a number")
             }
-            // Name
-            const res1 = await fetch(this.api + "/search/" + searchq + '/')
-            const new_res1 = await res1.json()
-            this.endpoint2 = await new_res1
+            // // Name
+            // const res1 = await fetch(this.api + "/search/" + searchq + '/')
+            // const new_res1 = await res1.json()
+            // this.endpoint2 = await new_res1
 
             const conc1 = await this.endpoint1.concat(this.endpoint2);
             const conc2 = await conc1.concat(this.endpoint3)
