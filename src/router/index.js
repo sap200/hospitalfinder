@@ -29,7 +29,7 @@ const routes = [
   },
 
   {
-    path: '/details/:name/:rating/:type/:city/:state:/:pincode:/:nBed/:nDoc/:disease/:treatment/:link/:image',
+    path: '/details/:name/:rating/:type/:city/:state:/:pincode:/:nBed/:nDoc/:disease/:treatment/:link/:image/:nlat/:nlong',
     name: 'HospitalDetails',
     component: HospitalDetails,
     props: true,
