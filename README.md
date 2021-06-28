@@ -2,7 +2,7 @@
 
 # Hospital Finder 
 
-
+[try it out](http://hospital-finder.surge.sh/)
 
 ## Project setup
 ```
